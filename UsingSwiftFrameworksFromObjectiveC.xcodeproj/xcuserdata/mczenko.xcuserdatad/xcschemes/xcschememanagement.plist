@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>UsingSwiftFrameworksFromObjectiveC.xcscheme</key>
+		<key>ExampleSwiftFramework.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>UsingSwiftFrameworksFromObjectiveC.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>6D07327B1C4E52870053A041</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6D0732941C4E741A0053A041</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6D07329D1C4E741A0053A041</key>
 		<dict>
 			<key>primary</key>
 			<true/>

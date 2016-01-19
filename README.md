@@ -8,8 +8,8 @@ This is a basic demonstration project demonstrating how to:
 
 When working with legacy iOS products it may happens that you need to integrate with main application target that
 contains only Objective-C code. You want to take advantage of Swift but you want this nicely separated from the old
-legacy code. Creating a framework that will contain your Swift code is an answer.
+legacy code. Creating a framework that will contain your Swift code is the answer.
 
 Please refer to an accompanying [blog post] for more insights.
 
-[blog post]: http://blog.redgreenrefactor.eu
+[blog post]: http://blog.redgreenrefactor.eu/post/137625319509/using-swift-frameworks-from-objective-c-target

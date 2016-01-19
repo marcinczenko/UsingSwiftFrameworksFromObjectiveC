@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+@import ExampleSwiftFramework;
+
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *label;
 
@@ -18,7 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.label setText:@"Hello!"];
+    ExampleSwiftFrameworkClass* exampleSwiftFrameworkClass = [[ExampleSwiftFrameworkClass alloc] initWithHelloMessage:@"Hello from Main Application Target"];
+    
+    [self.label setText:[exampleSwiftFrameworkClass sayHello]];
 }
 
 - (void)didReceiveMemoryWarning {

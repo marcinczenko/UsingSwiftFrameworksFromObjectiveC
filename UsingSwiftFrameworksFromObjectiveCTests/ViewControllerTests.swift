@@ -25,7 +25,7 @@ class ExampleSwiftFrameworkClassTests: XCTestCase {
         
         let label = appDelegate.window.rootViewController!.view.viewWithTag(1) as! UILabel
         
-        XCTAssertEqual(label.text!, "Hello!")
+        XCTAssertEqual(label.text!, "Hello from Main Application Target")
     }
 
 }
